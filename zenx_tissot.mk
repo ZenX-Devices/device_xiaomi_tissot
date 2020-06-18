@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/tissot/device.mk)
 # Inherit some common ZenxOS stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
+# Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
 PRODUCT_NAME := zenx_tissot
