@@ -31,3 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.soundfx.dirac=true \
     persist.audio.dirac.speaker=true
+
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.com.google.ime.corner_key_r=35 \
+ro.com.google.ime.kb_pad_port_b=1
