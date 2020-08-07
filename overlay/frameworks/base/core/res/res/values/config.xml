@@ -271,4 +271,7 @@
     <!-- Add Xiaomiparts To ZenHub-->
     <string name="config_device_parts_package_name" translatable="false">com.xiaomi.parts</string>
     <string name="config_device_parts_package_activity" translatable="false">com.xiaomi.parts.DeviceSettingsActivity</string>
+
+    <!-- Whether or not to use intelligent profiles -->
+    <bool name="config_intelligent_performance_profile">true</bool> 
 </resources>
