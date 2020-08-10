@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 # Inherit some common ZenxOS stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
+$(call inherit-product, vendor/oplauncher/OPLauncher2.mk)
 
 # Google Recorder
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -47,6 +48,5 @@ BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:u
 #Bleed Zenx
 ZENX_BUILD_TYPE := Official
 TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
 IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
